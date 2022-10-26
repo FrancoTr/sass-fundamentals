@@ -1,6 +1,18 @@
 .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 40px;
+
+  &__main,
+  &__sidebar {
+    padding: 40px;
+  }
+
   &__main {
+    background-color: hsl(240, 95%, 34%);
   }
   &__sidebar {
+    background-color: hsl(300, 73%, 25%);
   }
 }
