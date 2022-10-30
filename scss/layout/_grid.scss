@@ -25,7 +25,7 @@
   &__sidebar {
     background-color: hsl(300, 73%, 25%);
 
-    @media (max-width: 56.25em) {
+    @include u.breakpoint-down(medium) {
       text-align: center;
     }
   }

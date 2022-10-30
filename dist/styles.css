@@ -63,7 +63,7 @@ a:active {
 .grid__sidebar {
   background-color: hsl(300deg, 73%, 25%);
 }
-@media (max-width: 56.25em) {
+@media (max-width: 56.24875em) {
   .grid__sidebar {
     text-align: center;
   }
