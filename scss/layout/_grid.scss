@@ -29,8 +29,6 @@
     }
   }
   &__sidebar {
-    background-color: hsl(300, 73%, 25%);
-
     @include u.breakpoint-down(medium) {
       text-align: center;
     }
@@ -38,5 +36,9 @@
     @include u.breakpoint-down(small) {
       text-align: right;
     }
+  }
+
+  &__widget {
+    background-color: hsl(300, 73%, 25%);
   }
 }
