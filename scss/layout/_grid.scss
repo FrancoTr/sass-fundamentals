@@ -43,11 +43,12 @@
 
   &__widget {
     padding: u.rem(16);
-    &--magenta {
+
+    &.magenta {
       background-color: hsl(300, 73%, 25%);
     }
 
-    &--green {
+    &.green {
       background-color: hsl(105, 92%, 20%);
     }
   }
