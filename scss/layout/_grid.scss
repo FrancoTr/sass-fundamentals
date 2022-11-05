@@ -40,5 +40,10 @@
 
   &__widget {
     background-color: hsl(300, 73%, 25%);
+    padding: u.rem(16);
+
+    &--green {
+      background-color: hsl(105, 92%, 20%);
+    }
   }
 }
