@@ -43,6 +43,7 @@
     padding: u.rem(16);
 
     &--green {
+      @extend .grid__widget;
       background-color: hsl(105, 92%, 20%);
     }
   }
