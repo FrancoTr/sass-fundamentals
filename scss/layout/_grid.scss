@@ -1,8 +1,5 @@
 @use "../util/" as u;
 
-%widget {
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -43,13 +40,5 @@
 
   &__widget {
     padding: u.rem(16);
-
-    &.magenta {
-      background-color: hsl(300, 73%, 25%);
-    }
-
-    &.green {
-      background-color: hsl(105, 92%, 20%);
-    }
   }
 }
