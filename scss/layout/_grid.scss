@@ -43,7 +43,10 @@
   }
 
   &__widget {
-    background-color: hsl(300, 73%, 25%);
+    &--magenta {
+      @extend %widget;
+      background-color: hsl(300, 73%, 25%);
+    }
 
     &--green {
       @extend %widget;
